@@ -6,8 +6,8 @@ This includes:
 - A **frontend** interface for users to input their search queries and view results.
 
 ## Technologies Used
-Backend: Node.js, Express, HNSWLib
-Frontend: HTML, CSS, JavaScript
+- Backend: Node.js, Express, HNSWLib
+- Frontend: HTML, CSS, JavaScript
 
 ## Setup Instructions
 **1. Clone the Repository** 
@@ -39,6 +39,7 @@ npm start
 This will start the backend server at http://localhost:3000.
 
 **6. Open the Frontend**
+
 Navigate to the frontend folder and open `index.html` in your browser.
 
 ## Running the Application
@@ -47,7 +48,7 @@ Navigate to the frontend folder and open `index.html` in your browser.
 3. Click "Search".
 4. The results will be displayed on the page, showing the most similar documents and their distances.
 
-## How It Works
+## How it Works
 **Backend**
 The backend exposes an API endpoint `(/search)` that accepts a `POST`request with a search query. It uses pre-trained embeddings to convert both the query and the documents into vectors, and then performs a k-nearest neighbors (k-NN) search to find the most similar documents.
 
