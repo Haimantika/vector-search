@@ -22,6 +22,7 @@ npm install
 ```
 
 **3. Add Your Documents**
+
 Place your documents in the `/data/documents.json` file. This should be an array of strings where each string represents a document.
 
 ```json
